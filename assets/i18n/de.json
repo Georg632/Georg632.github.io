@@ -1,0 +1,78 @@
+{
+  "auth": {
+    "login": {
+      "title": "Willkommen zurück",
+      "subtitle": "Melde dich mit deinem Account an",
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "name@beispiel.com",
+      "password": "Passwort",
+      "passwordPlaceholder": "••••••••",
+      "forgotPassword": "Passwort vergessen?",
+      "loginButton": "Anmelden",
+      "loading": "Wird geladen...",
+      "orContinueWith": "Oder fortfahren mit",
+      "noAccount": "Noch kein Account?",
+      "signupLink": "Jetzt registrieren",
+      "footer": "Durch die Anmeldung stimmst du unseren",
+      "terms": "AGB",
+      "and": "und",
+      "privacy": "Datenschutzrichtlinien",
+      "to": "zu"
+    },
+    "signup": {
+      "title": "Konto erstellen",
+      "subtitle": "Erstelle deinen Account und leg los",
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "name@beispiel.com",
+      "password": "Passwort",
+      "passwordPlaceholder": "Mindestens 6 Zeichen",
+      "confirmPassword": "Passwort bestätigen",
+      "confirmPasswordPlaceholder": "Passwort wiederholen",
+      "signupButton": "Konto erstellen",
+      "creating": "Wird erstellt...",
+      "or": "Oder",
+      "hasAccount": "Hast du bereits ein Konto?",
+      "loginLink": "Jetzt anmelden",
+      "footer": "Durch die Registrierung stimmst du unseren",
+      "terms": "AGB",
+      "and": "und",
+      "privacy": "Datenschutzrichtlinien",
+      "to": "zu"
+    },
+    "forgotPassword": {
+      "title": "Passwort vergessen?",
+      "subtitle": "Wir senden dir einen Link zum Zurücksetzen",
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "name@beispiel.com",
+      "sendButton": "Link senden",
+      "sending": "Wird gesendet...",
+      "backToLogin": "Zurück zur Anmeldung",
+      "footer": "Du erhältst eine E-Mail mit Anweisungen zum Zurücksetzen deines Passworts"
+    }
+  },
+  "shoppingList": {
+    "title": "Shopping List",
+    "signOut": "Sign out",
+    "addItem": "Artikel hinzufügen",
+    "searchPlaceholder": "Artikel suchen oder hinzufügen...",
+    "loading": "Lädt..."
+  },
+  "imageUploader": {
+    "selectPhotos": "Fotos auswählen",
+    "loadingGallery": "Galerie wird geladen...",
+    "upload": "Upload",
+    "gallery": "Galerie"
+  },
+  "common": {
+    "add": "Hinzufügen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "submit": "Absenden",
+    "close": "Schließen",
+    "loading": "Lädt...",
+    "error": "Fehler",
+    "success": "Erfolg"
+  }
+}

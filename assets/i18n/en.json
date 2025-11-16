@@ -1,0 +1,78 @@
+{
+  "auth": {
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to your account",
+      "email": "Email address",
+      "emailPlaceholder": "name@example.com",
+      "password": "Password",
+      "passwordPlaceholder": "••••••••",
+      "forgotPassword": "Forgot password?",
+      "loginButton": "Sign in",
+      "loading": "Loading...",
+      "orContinueWith": "Or continue with",
+      "noAccount": "Don't have an account?",
+      "signupLink": "Sign up now",
+      "footer": "By signing in, you agree to our",
+      "terms": "Terms",
+      "and": "and",
+      "privacy": "Privacy Policy",
+      "to": ""
+    },
+    "signup": {
+      "title": "Create account",
+      "subtitle": "Create your account and get started",
+      "email": "Email address",
+      "emailPlaceholder": "name@example.com",
+      "password": "Password",
+      "passwordPlaceholder": "At least 6 characters",
+      "confirmPassword": "Confirm password",
+      "confirmPasswordPlaceholder": "Re-enter password",
+      "signupButton": "Create account",
+      "creating": "Creating...",
+      "or": "Or",
+      "hasAccount": "Already have an account?",
+      "loginLink": "Sign in now",
+      "footer": "By signing up, you agree to our",
+      "terms": "Terms",
+      "and": "and",
+      "privacy": "Privacy Policy",
+      "to": ""
+    },
+    "forgotPassword": {
+      "title": "Forgot password?",
+      "subtitle": "We'll send you a reset link",
+      "email": "Email address",
+      "emailPlaceholder": "name@example.com",
+      "sendButton": "Send link",
+      "sending": "Sending...",
+      "backToLogin": "Back to sign in",
+      "footer": "You will receive an email with instructions to reset your password"
+    }
+  },
+  "shoppingList": {
+    "title": "Shopping List",
+    "signOut": "Sign out",
+    "addItem": "Add item",
+    "searchPlaceholder": "Search or add item...",
+    "loading": "Loading..."
+  },
+  "imageUploader": {
+    "selectPhotos": "Select photos",
+    "loadingGallery": "Loading gallery...",
+    "upload": "Upload",
+    "gallery": "Gallery"
+  },
+  "common": {
+    "add": "Add",
+    "delete": "Delete",
+    "edit": "Edit",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "close": "Close",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  }
+}
