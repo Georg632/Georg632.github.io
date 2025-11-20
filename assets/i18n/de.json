@@ -55,7 +55,22 @@
     "signOut": "Sign out",
     "addItem": "Artikel hinzufügen",
     "searchPlaceholder": "Artikel suchen oder hinzufügen...",
-    "loading": "Lädt..."
+    "loading": "Lädt...",
+    "avatar": {
+      "account": "Konto",
+      "changePassword": "Passwort ändern",
+      "logout": "Abmelden",
+      "passwordDialogDescription": "Gib dein neues Passwort ein. Es muss mindestens 6 Zeichen lang sein.",
+      "newPassword": "Neues Passwort",
+      "newPasswordPlaceholder": "Mindestens 6 Zeichen",
+      "confirmPassword": "Passwort bestätigen",
+      "confirmPasswordPlaceholder": "Passwort wiederholen",
+      "passwordMinLength": "Passwort muss mindestens 6 Zeichen lang sein",
+      "passwordsMismatch": "Passwörter stimmen nicht überein",
+      "updatePassword": "Passwort aktualisieren",
+      "updating": "Wird aktualisiert...",
+      "passwordChangeSuccess": "Passwort erfolgreich geändert!"
+    }
   },
   "imageUploader": {
     "selectPhotos": "Fotos auswählen",

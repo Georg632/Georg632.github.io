@@ -55,7 +55,22 @@
     "signOut": "Sign out",
     "addItem": "Add item",
     "searchPlaceholder": "Search or add item...",
-    "loading": "Loading..."
+    "loading": "Loading...",
+    "avatar": {
+      "account": "Account",
+      "changePassword": "Change Password",
+      "logout": "Logout",
+      "passwordDialogDescription": "Enter your new password. It must be at least 6 characters long.",
+      "newPassword": "New Password",
+      "newPasswordPlaceholder": "At least 6 characters",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "Re-enter password",
+      "passwordMinLength": "Password must be at least 6 characters",
+      "passwordsMismatch": "Passwords do not match",
+      "updatePassword": "Update Password",
+      "updating": "Updating...",
+      "passwordChangeSuccess": "Password changed successfully!"
+    }
   },
   "imageUploader": {
     "selectPhotos": "Select photos",
