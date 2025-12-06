@@ -150,11 +150,27 @@
     "wallName": "Wandname",
     "wallThickness": "Wandstärke",
     "wallStructure": "Wandaufbau",
-    "wallStructureDesc": "Verknüpfung mit einem definierten Wandaufbau (noch nicht implementiert)",
+    "wallStructureDesc": "Verknüpfen Sie diese Wand mit einem definierten Wandaufbau",
     "structureLinked": "Verknüpft",
     "noStructureLinked": "Keine Struktur verknüpft",
+    "searchWallStructure": "Wandaufbau suchen...",
+    "noStructuresAvailable": "Keine Wandaufbauten verfügbar. Erstellen Sie welche unter 'Wandaufbauten'.",
     "dimensions": "Abmessungen",
     "length": "Länge"
+  },
+  "wallStructures": {
+    "materialLibrary": {
+      "title": "Material-Bibliothek",
+      "description": "Erstellen Sie wiederverwendbare Materialien (z.B. Holz, Ziegel, Dämmung) mit Name und Dicke.",
+      "addNew": "Neues Material",
+      "deleteSelected": "Ausgewählte löschen"
+    },
+    "structures": {
+      "title": "Wandaufbauten",
+      "description": "Erstellen Sie Wandaufbauten und fügen Sie Materialien aus Ihrer Bibliothek hinzu.",
+      "addNew": "Neuer Wandaufbau",
+      "deleteSelected": "Ausgewählte löschen"
+    }
   },
   "common": {
     "add": "Hinzufügen",

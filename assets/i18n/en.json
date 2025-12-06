@@ -150,11 +150,27 @@
     "wallName": "Wall Name",
     "wallThickness": "Wall Thickness",
     "wallStructure": "Wall Structure",
-    "wallStructureDesc": "Link to a defined wall structure (not yet implemented)",
+    "wallStructureDesc": "Link this wall to a defined wall structure",
+    "searchWallStructure": "Search wall structure...",
+    "noStructuresAvailable": "No wall structures available. Create them in 'Wall Structures'.",
     "structureLinked": "Linked",
     "noStructureLinked": "No structure linked",
     "dimensions": "Dimensions",
     "length": "Length"
+  },
+  "wallStructures": {
+    "materialLibrary": {
+      "title": "Material Library",
+      "description": "Create reusable materials (e.g., wood, brick, insulation) with name and thickness.",
+      "addNew": "New Material",
+      "deleteSelected": "Delete Selected"
+    },
+    "structures": {
+      "title": "Wall Structures",
+      "description": "Create wall structures and add materials from your library.",
+      "addNew": "New Wall Structure",
+      "deleteSelected": "Delete Selected"
+    }
   },
   "common": {
     "add": "Add",
