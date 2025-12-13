@@ -105,6 +105,7 @@
       "dashboard": "Dashboard",
       "housePlans": "Grundrisse",
       "wallStructures": "Wandaufbauten",
+      "flexibleItems": "Flexible Elemente",
       "footer": "Haus Dokumentation"
     }
   },
@@ -130,15 +131,17 @@
     "drawWall": "Wand zeichnen",
     "move": "Verschieben",
     "delete": "Löschen",
-    "mode": "Modus",
-    "selectMode": "Wählen Sie eine Wand aus, um Details zu bearbeiten",
-    "drawMode": "Klicken Sie, um einen Startpunkt zu setzen, dann klicken Sie erneut für den Endpunkt",
-    "deleteMode": "Klicken Sie auf eine Wand, um sie zu löschen",
     "stats": "Statistiken",
     "wallCount": "Wände",
     "scale": "Maßstab",
+    "zoom": "Zoom",
+    "zoomIn": "Vergrößern",
+    "zoomOut": "Verkleinern",
+    "resetZoom": "Zoom zurücksetzen",
+    "zoomLevel": "Zoomstufe",
     "drawInstructions": "Klicken Sie zweimal, um eine Wand zu zeichnen (Start → Ende)",
     "selectInstructions": "Klicken Sie auf eine Wand, um ihre Eigenschaften zu bearbeiten",
+    "moveInstructions": "Ziehen Sie Wände per Drag & Drop an neue Positionen",
     "deleteInstructions": "Klicken Sie auf eine Wand, um sie zu entfernen",
     "wallList": "Wandliste",
     "wallListDesc": "Alle Wände in Ihrem Grundriss. Klicken Sie zum Bearbeiten.",
@@ -172,6 +175,51 @@
       "deleteSelected": "Ausgewählte löschen"
     }
   },
+  "flexibleItems": {
+    "title": "Flexible Elemente",
+    "description": "Verwalten Sie benutzerdefinierte Elemente mit eigenen Eigenschaften, die im Grundriss platziert werden können.",
+    "addNew": "Neues Element",
+    "deleteSelected": "Ausgewählte löschen",
+    "dialog": {
+      "addTitle": "Neues Element erstellen",
+      "editTitle": "Element bearbeiten",
+      "description": "Definieren Sie Name, Beschreibung und benutzerdefinierte Eigenschaften für dieses Element.",
+      "nameLabel": "Name",
+      "namePlaceholder": "z.B. Fenster, Tür, Möbel",
+      "nameRequired": "Name ist erforderlich",
+      "descriptionLabel": "Beschreibung (HTML)",
+      "descriptionPlaceholder": "Geben Sie eine Beschreibung ein (HTML wird unterstützt)...",
+      "descriptionHint": "Sie können HTML-Formatierung verwenden (z.B. <strong>, <em>, <ul>)",
+      "iconLabel": "Icon",
+      "propertiesLabel": "Benutzerdefinierte Eigenschaften (JSON)",
+      "propertiesPlaceholder": "{\n  \"breite\": 100,\n  \"höhe\": 200,\n  \"material\": \"Holz\"\n}",
+      "propertiesHint": "Definieren Sie beliebige Eigenschaften im JSON-Format"
+    },
+    "iconPicker": {
+      "searchLabel": "Icon suchen",
+      "searchPlaceholder": "Suche nach Iconname...",
+      "noResults": "Keine Icons gefunden",
+      "selected": "Ausgewählt"
+    }
+  },
+  "propertyEditor": {
+    "title": "Eigenschaften",
+    "editProperty": "Bearbeiten",
+    "addProperty": "Eigenschaft hinzufügen",
+    "noProperties": "Noch keine Eigenschaften vorhanden. Klicke auf 'Eigenschaft hinzufügen' um zu starten.",
+    "propertyName": "Name",
+    "propertyNamePlaceholder": "z.B. Farbe, Größe, Preis...",
+    "propertyType": "Typ",
+    "propertyValue": "Wert",
+    "valuePlaceholder": "Wert eingeben...",
+    "types": {
+      "text": "Einzeiliger Text",
+      "multiline": "Mehrzeiliger Text",
+      "url": "URL",
+      "number": "Zahl",
+      "boolean": "Ja/Nein"
+    }
+  },
   "common": {
     "add": "Hinzufügen",
     "delete": "Löschen",
@@ -187,6 +235,8 @@
     "back": "Zurück",
     "loading": "Lädt...",
     "error": "Fehler",
-    "success": "Erfolg"
+    "success": "Erfolg",
+    "yes": "Ja",
+    "no": "Nein"
   }
 }

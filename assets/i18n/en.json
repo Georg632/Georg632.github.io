@@ -105,6 +105,7 @@
       "dashboard": "Dashboard",
       "housePlans": "House Plans",
       "wallStructures": "Wall Structures",
+      "flexibleItems": "Flexible Items",
       "footer": "Home Documentation"
     }
   },
@@ -130,15 +131,17 @@
     "drawWall": "Draw Wall",
     "move": "Move",
     "delete": "Delete",
-    "mode": "Mode",
-    "selectMode": "Click a wall to edit its details",
-    "drawMode": "Click to set start point, then click again for end point",
-    "deleteMode": "Click a wall to remove it",
     "stats": "Statistics",
     "wallCount": "Walls",
     "scale": "Scale",
+    "zoom": "Zoom",
+    "zoomIn": "Zoom In",
+    "zoomOut": "Zoom Out",
+    "resetZoom": "Reset Zoom",
+    "zoomLevel": "Zoom Level",
     "drawInstructions": "Click twice to draw a wall (start → end)",
     "selectInstructions": "Click a wall to edit its properties",
+    "moveInstructions": "Drag and drop walls to reposition them",
     "deleteInstructions": "Click a wall to remove it",
     "wallList": "Wall List",
     "wallListDesc": "All walls in your floor plan. Click to edit.",
@@ -172,6 +175,51 @@
       "deleteSelected": "Delete Selected"
     }
   },
+  "flexibleItems": {
+    "title": "Flexible Items",
+    "description": "Manage user-defined items with custom properties that can be placed in house plans.",
+    "addNew": "New Item",
+    "deleteSelected": "Delete Selected",
+    "dialog": {
+      "addTitle": "Create New Item",
+      "editTitle": "Edit Item",
+      "description": "Define name, description, and custom properties for this item.",
+      "nameLabel": "Name",
+      "namePlaceholder": "e.g. Window, Door, Furniture",
+      "nameRequired": "Name is required",
+      "descriptionLabel": "Description (HTML)",
+      "descriptionPlaceholder": "Enter a description (HTML is supported)...",
+      "descriptionHint": "You can use HTML formatting (e.g. <strong>, <em>, <ul>)",
+      "iconLabel": "Icon",
+      "propertiesLabel": "Custom Properties (JSON)",
+      "propertiesPlaceholder": "{\n  \"width\": 100,\n  \"height\": 200,\n  \"material\": \"Wood\"\n}",
+      "propertiesHint": "Define any properties in JSON format"
+    },
+    "iconPicker": {
+      "searchLabel": "Search Icons",
+      "searchPlaceholder": "Search by icon name...",
+      "noResults": "No icons found",
+      "selected": "Selected"
+    }
+  },
+  "propertyEditor": {
+    "title": "Properties",
+    "editProperty": "Edit",
+    "addProperty": "Add Property",
+    "noProperties": "No properties yet. Click 'Add Property' to get started.",
+    "propertyName": "Name",
+    "propertyNamePlaceholder": "e.g. Color, Size, Price...",
+    "propertyType": "Type",
+    "propertyValue": "Value",
+    "valuePlaceholder": "Enter value...",
+    "types": {
+      "text": "Single Line Text",
+      "multiline": "Multi-line Text",
+      "url": "URL",
+      "number": "Number",
+      "boolean": "Yes/No"
+    }
+  },
   "common": {
     "add": "Add",
     "delete": "Delete",
@@ -187,6 +235,8 @@
     "back": "Back",
     "loading": "Loading...",
     "error": "Error",
-    "success": "Success"
+    "success": "Success",
+    "yes": "Yes",
+    "no": "No"
   }
 }
