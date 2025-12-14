@@ -159,7 +159,9 @@
     "searchWallStructure": "Wandaufbau suchen...",
     "noStructuresAvailable": "Keine Wandaufbauten verfügbar. Erstellen Sie welche unter 'Wandaufbauten'.",
     "dimensions": "Abmessungen",
-    "length": "Länge"
+    "length": "Länge",
+    "clearSelection": "Auswahl aufheben",
+    "placeFlexibleItem": "Flexibles Element platzieren"
   },
   "wallStructures": {
     "materialLibrary": {

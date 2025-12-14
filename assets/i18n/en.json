@@ -159,7 +159,9 @@
     "structureLinked": "Linked",
     "noStructureLinked": "No structure linked",
     "dimensions": "Dimensions",
-    "length": "Length"
+    "length": "Length",
+    "clearSelection": "Clear Selection",
+    "placeFlexibleItem": "Place Flexible Item"
   },
   "wallStructures": {
     "materialLibrary": {
