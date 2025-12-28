@@ -240,5 +240,14 @@
     "success": "Success",
     "yes": "Yes",
     "no": "No"
+  },
+  "layout": {
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "shoppingList": "Shopping List",
+      "home": "Home"
+    },
+    "companyTitle": "GH-Tools",
+    "companySubtitle": "Basic tools"
   }
 }
