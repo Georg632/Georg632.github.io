@@ -1,6 +1,6 @@
 {
-  "name": "GH Tools",
-  "short_name": "GH Tools",
+  "name": "NeBu",
+  "short_name": "NB",
   "description": "Shopping list and image gallery tools",
   "scope": "/",
   "display": "standalone",
