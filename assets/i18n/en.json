@@ -241,6 +241,13 @@
     "yes": "Yes",
     "no": "No"
   },
+  "attachments": {
+    "title": "Attachments",
+    "upload": "Upload",
+    "download": "Download",
+    "delete": "Delete",
+    "empty": "No attachments available"
+  },
   "layout": {
     "sidebar": {
       "dashboard": "Dashboard",

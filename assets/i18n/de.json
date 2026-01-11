@@ -241,6 +241,13 @@
     "yes": "Ja",
     "no": "Nein"
   },
+  "attachments": {
+    "title": "Anhänge",
+    "upload": "Hochladen",
+    "download": "Herunterladen",
+    "delete": "Löschen",
+    "empty": "Keine Anhänge vorhanden"
+  },
   "layout": {
     "sidebar": {
       "dashboard": "Dashboard",
