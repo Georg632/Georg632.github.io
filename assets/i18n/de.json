@@ -106,7 +106,8 @@
       "housePlans": "Grundrisse",
       "wallStructures": "Wandaufbauten",
       "flexibleItems": "Flexible Elemente",
-      "footer": "Haus Dokumentation"
+      "footer": "Haus Dokumentation",
+      "attachments": "Dateien"
     }
   },
   "housePlans": {
@@ -244,8 +245,9 @@
   "attachments": {
     "title": "Anhänge",
     "upload": "Hochladen",
+    "description": "Alle Anhänge für Ihr Projekt verwalten.",
     "download": "Herunterladen",
-    "delete": "Löschen",
+    "deleteSelected": "Ausgewählte löschen",
     "empty": "Keine Anhänge vorhanden"
   },
   "layout": {

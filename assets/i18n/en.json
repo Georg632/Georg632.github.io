@@ -106,7 +106,8 @@
       "housePlans": "House Plans",
       "wallStructures": "Wall Structures",
       "flexibleItems": "Flexible Items",
-      "footer": "Home Documentation"
+      "footer": "Home Documentation",
+      "attachments": "Dateien"
     }
   },
   "housePlans": {
@@ -244,8 +245,9 @@
   "attachments": {
     "title": "Attachments",
     "upload": "Upload",
+    "description": "Manage all attachments for your project.",
     "download": "Download",
-    "delete": "Delete",
+    "deleteSelected": "Delete Selected",
     "empty": "No attachments available"
   },
   "layout": {
