@@ -257,6 +257,22 @@
       "home": "Home"
     },
     "companyTitle": "NeBu",
-    "companySubtitle": "Basic tools"
+    "companySubtitle": "Basic tools",
+    "avatar": {
+      "account": "Account",
+      "changePassword": "Change Password",
+      "logout": "Logout",
+      "language": "Language",
+      "passwordDialogDescription": "Enter your new password. It must be at least 6 characters long.",
+      "newPassword": "New Password",
+      "newPasswordPlaceholder": "At least 6 characters",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "Re-enter password",
+      "passwordMinLength": "Password must be at least 6 characters",
+      "passwordsMismatch": "Passwords do not match",
+      "updatePassword": "Update Password",
+      "updating": "Updating...",
+      "passwordChangeSuccess": "Password changed successfully!"
+    }
   }
 }

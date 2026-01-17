@@ -1,0 +1,108 @@
+{
+  "configVersion": 1,
+  "timestamp": 1768658290203,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/chunk-5QGUSEZX.js",
+        "/chunk-ADWQT6NS.js",
+        "/chunk-EDSGPAVT.js",
+        "/chunk-QRHBPKMP.js",
+        "/chunk-YTDND6TZ.js",
+        "/favicon.ico",
+        "/favicon.svg",
+        "/index.html",
+        "/main-WSI46OXN.js",
+        "/manifest.json",
+        "/styles-QSLK6PJW.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/amaticsc.ttf",
+        "/apple-touch-icon.png",
+        "/assets/i18n/de.json",
+        "/assets/i18n/en.json",
+        "/favicon-96x96.png",
+        "/logo.png",
+        "/sunshine.ttf",
+        "/video_thumb.png",
+        "/web-app-manifest-192x192.png",
+        "/web-app-manifest-512x512.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api",
+      "patterns": [
+        "https:\\/\\/[^/]*\\.supabase\\.co\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": 3600000,
+      "timeoutMs": 10000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/amaticsc.ttf": "9aa9f1b9ddbd8340e415b538c513ee2ab92ee2e2",
+    "/apple-touch-icon.png": "dd305e9be801897adce1a15b9e846c764cb15677",
+    "/assets/i18n/de.json": "c35a29ec7b2459ea2e964b3dd25cee679300d827",
+    "/assets/i18n/en.json": "28576093fa25db3ceb6fa1298512a85c51a6f436",
+    "/chunk-5QGUSEZX.js": "8d2841ba6f21d123eb17dcb1466e3ed923a8db4c",
+    "/chunk-ADWQT6NS.js": "89011965d978ad39152ad24313ccda713acda462",
+    "/chunk-EDSGPAVT.js": "e2b4b18d4949e51d488371a16e2a5daeba54b145",
+    "/chunk-QRHBPKMP.js": "1fdd65ac3dc6bed0ac4e2215b00d6c05694a8d1b",
+    "/chunk-YTDND6TZ.js": "7b41fde368b43700d0f0e2a82f281458617fa3f7",
+    "/favicon-96x96.png": "895c7ac0f95cc6ee5a107825654f9226b8260a0d",
+    "/favicon.ico": "3a3cc009f06e1cdd2f66de2b5cce6fe0644306aa",
+    "/favicon.svg": "0fff255bc85d9ece6c360e629a453ed96e67185d",
+    "/index.html": "803f9aad543977bbb360a2b2644f3a4a5a9dfd17",
+    "/logo.png": "2ee909da6cf872df620d49c572174b3003d93c98",
+    "/main-WSI46OXN.js": "32cbdc236d1b4da1e1e48e803108be5e81990596",
+    "/manifest.json": "1f2f6e7ce19f9ea11e2916ea8fef0ab6a0275817",
+    "/styles-QSLK6PJW.css": "fd9e87178b0c1505eb857dbe4a369956b82bc470",
+    "/sunshine.ttf": "c352790f6664d81389aac60a508a92fd3552c619",
+    "/video_thumb.png": "cedeee71b528531e66a488436fc878bc45d79f74",
+    "/web-app-manifest-192x192.png": "9132827f1569d806624b920a387f82a56f0be6b3",
+    "/web-app-manifest-512x512.png": "eba50b0c42079627976c6b4f3744402d0202200c"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
