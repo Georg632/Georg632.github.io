@@ -107,7 +107,8 @@
       "wallStructures": "Wall Structures",
       "flexibleItems": "Flexible Items",
       "footer": "Home Documentation",
-      "attachments": "Dateien"
+      "attachments": "Files",
+      "maintenance": "Maintenance"
     }
   },
   "housePlans": {
@@ -196,13 +197,42 @@
       "iconLabel": "Icon",
       "propertiesLabel": "Custom Properties (JSON)",
       "propertiesPlaceholder": "{\n  \"width\": 100,\n  \"height\": 200,\n  \"material\": \"Wood\"\n}",
-      "propertiesHint": "Define any properties in JSON format"
+      "propertiesHint": "Define any properties in JSON format",
+      "maintenanceSchedule": "Maintenance Schedule"
     },
     "iconPicker": {
       "searchLabel": "Search Icons",
       "searchPlaceholder": "Search by icon name...",
       "noResults": "No icons found",
       "selected": "Selected"
+    }
+  },
+  "maintenanceItems": {
+    "title": "Maintenance Items",
+    "description": "Track and schedule maintenance tasks for your home items.",
+    "addNew": "Add Maintenance Item",
+    "empty": "No maintenance items yet. Click 'Add Maintenance Item' to get started.",
+    "demoNote": "This is a demonstration page. The maintenance manager component is used below and can be added to any feature by passing an entityType and entityId.",
+    "dialog": {
+      "addTitle": "Schedule Maintenance",
+      "editTitle": "Edit Maintenance",
+      "description": "Create a maintenance schedule for tracking recurring tasks.",
+      "titleLabel": "Title",
+      "titlePlaceholder": "e.g. Change HVAC Filter",
+      "titleRequired": "Title is required",
+      "descriptionLabel": "Description",
+      "firstOccurrenceLabel": "First Occurrence",
+      "firstOccurrenceRequired": "First occurrence date is required",
+      "recurringEnabledLabel": "Enable Recurring Schedule",
+      "recurringTypeLabel": "Repeat Every",
+      "recurringAmountLabel": "Amount",
+      "recurringHint": "This maintenance task will repeat automatically at the specified interval.",
+      "recurringType": {
+        "day": "Day(s)",
+        "week": "Week(s)",
+        "month": "Month(s)",
+        "year": "Year(s)"
+      }
     }
   },
   "propertyEditor": {

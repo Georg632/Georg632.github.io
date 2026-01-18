@@ -107,7 +107,8 @@
       "wallStructures": "Wandaufbauten",
       "flexibleItems": "Flexible Elemente",
       "footer": "Haus Dokumentation",
-      "attachments": "Dateien"
+      "attachments": "Dateien",
+      "maintenance": "Wartungen"
     }
   },
   "housePlans": {
@@ -196,13 +197,42 @@
       "iconLabel": "Icon",
       "propertiesLabel": "Benutzerdefinierte Eigenschaften (JSON)",
       "propertiesPlaceholder": "{\n  \"breite\": 100,\n  \"höhe\": 200,\n  \"material\": \"Holz\"\n}",
-      "propertiesHint": "Definieren Sie beliebige Eigenschaften im JSON-Format"
+      "propertiesHint": "Definieren Sie beliebige Eigenschaften im JSON-Format",
+      "maintenanceSchedule": "Wartungsplan"
     },
     "iconPicker": {
       "searchLabel": "Icon suchen",
       "searchPlaceholder": "Suche nach Iconname...",
       "noResults": "Keine Icons gefunden",
       "selected": "Ausgewählt"
+    }
+  },
+  "maintenanceItems": {
+    "title": "Wartungsaufgaben",
+    "description": "Verfolgen und planen Sie Wartungsaufgaben für Ihre Haushaltsgegenstände.",
+    "addNew": "Wartungsaufgabe hinzufügen",
+    "empty": "Noch keine Wartungsaufgaben vorhanden. Klicken Sie auf 'Wartungsaufgabe hinzufügen' um zu starten.",
+    "demoNote": "Dies ist eine Demonstrationsseite. Die Wartungsmanager-Komponente wird unten verwendet und kann zu jeder Funktion hinzugefügt werden, indem ein entityType und entityId übergeben werden.",
+    "dialog": {
+      "addTitle": "Wartung planen",
+      "editTitle": "Wartung bearbeiten",
+      "description": "Erstellen Sie einen Wartungsplan für wiederkehrende Aufgaben.",
+      "titleLabel": "Titel",
+      "titlePlaceholder": "z.B. Klimaanlagenfilter wechseln",
+      "titleRequired": "Titel ist erforderlich",
+      "descriptionLabel": "Beschreibung",
+      "firstOccurrenceLabel": "Erstes Auftreten",
+      "firstOccurrenceRequired": "Datum des ersten Auftretens ist erforderlich",
+      "recurringEnabledLabel": "Wiederholungsplan aktivieren",
+      "recurringTypeLabel": "Wiederholen Alle",
+      "recurringAmountLabel": "Anzahl",
+      "recurringHint": "Diese Wartungsaufgabe wird automatisch im angegebenen Intervall wiederholt.",
+      "recurringType": {
+        "day": "Tag(e)",
+        "week": "Woche(n)",
+        "month": "Monat(e)",
+        "year": "Jahr(e)"
+      }
     }
   },
   "propertyEditor": {
